@@ -7,8 +7,19 @@
 
 #include <iostream>
 
+
+using namespace std;
+
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    unsigned char c;
+    
+    for (c = 0 ; c<128 ; c++)
+    {
+        cout << c << '\n' ;
+        
+    }
+    
     return 0;
 }
